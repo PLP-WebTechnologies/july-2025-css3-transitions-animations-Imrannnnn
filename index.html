@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nasiru Imran Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to Nasiru Imran's Portfolio</h1>
+
+  <!-- Profile Card -->
+  <div class="profile-card">
+    <h2>Nasiru Imran, Software Engineer</h2>
+    <p>
+      Hi! I'm Nasiru Imran, a passionate learner exploring HTML, CSS, and JavaScript.  
+      <br> Currently learning from PLP Academy 
+    </p>
+  </div>
+
+  <!-- Floating Motivation Text -->
+  <div class="floating-container">
+    <h2 class="floating">i will Keep Learning, and Keep Building </h2>
+  </div>
+
+  <!-- Bounce Box -->
+  <h3>Box Animation</h3>
+  <div class="box" id="animate-box"></div>
+  <button class="btn" onclick="triggerBoxAnimation()">Animate Box</button>
+
+  <!-- Flip Card -->
+  <h3>Flip Card Animation</h3>
+  <div class="card" id="flip-card" onclick="flipCard()">
+    <div class="card-inner">
+      <div class="card-front">Front</div>
+      <div class="card-back">Back</div>
+    </div>
+  </div>
+
+  <!-- Loading Animation -->
+  <h3>Loading Animation</h3>
+  <div class="loader" id="loader"></div>
+  <button class="btn" onclick="toggleLoader()">Start/Stop Loading</button>
+
+  <!-- Modal Popup -->
+  <h3>Modal Popup</h3>
+  <button class="btn" onclick="toggleModal()">Open Modal</button>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <p>Hello  This is a dynamic popup modal inside my portfolio.</p>
+      <button class="btn" onclick="toggleModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
